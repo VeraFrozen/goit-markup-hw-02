@@ -1,0 +1,182 @@
+/*Палитра сайта*/
+/*Цвет основного текста заголовков #212121*/
+/*Вторичный цвет текста #757575*/
+/*Цвет контактов rgba(255, 255, 255, 0.6)*/
+/*Белый цвет #FFFFFF*/
+/*Цвет акцента #2196F3*/
+/*Цвет фона #2F303A #E5E5E5 #F5F4FA #FFFFFF*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --accent-background-color: #2F303A;
+    --contacts-color: rgba(255, 255, 255, 0.6);
+    --background-features-color: #E5E5E5;
+    --background-team-color: #F5F4FA;
+}
+
+body {
+    background: var(--primary-white-color);
+    }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*шапка сайта*/
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+.logo-accent {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--accent-color);
+}
+.site-nav .link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus  {
+    color: var(--accent-color);
+}
+
+.auth-nav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--primary-text-color);
+}
+
+.auth-nav:hover,
+.auth-nav:focus {
+    color: var(--accent-color);
+}
+/*Main*/
+/*Баннер*/
+.hero {
+    background-color: var(--accent-background-color);
+}
+
+.hero .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--primary-white-color);
+}
+
+.hero .button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/*Заголовки секций*/
+.section-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-text-color);
+}
+
+/*Особенности*/
+/*.features .section-title {
+    text-decoration-style: hidden;
+}*/
+
+.list-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--title-text-color)
+}
+.list-text {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--primary-text-color);
+}
+
+/*Наша команда*/
+.card-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--title-text-color);
+}
+
+.card-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-text-color);
+}
+
+/*Подвал*/
+
+footer {
+    background-color: var(--accent-background-color);
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--primary-white-color); 
+
+.address-link {
+        
+    }
+
+.address-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--contacts-color);
+}
+ 
+ul+a .address-link {
+    color: var(--primary-white-color);
+}
