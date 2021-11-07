@@ -25,7 +25,8 @@
 body {
     background: var(--primary-white-color);
     font-family: "Roboto", sans-serif;
-    }
+    color: var(--title-text-color);
+}
 
 .list {
     list-style: none;
@@ -33,7 +34,7 @@ body {
 
 .link {
     text-decoration: none;
-    cursor: pointer;
+    color: inherit;
 }
 
 .site-nav .link:hover,
@@ -42,6 +43,13 @@ body {
 }
 
 /*шапка сайта*/
+.site-nav .link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .logo-accent {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -52,7 +60,7 @@ body {
     color: var(--accent-color);
 }
 
-.logo-header {
+.site-nav .logo-header {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -60,15 +68,6 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black-color);
-}
-
-.site-nav .link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
 }
 
 .site-nav .link.current {
@@ -123,12 +122,10 @@ body {
 
 /*Заголовки секций*/
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
 }
 
 .visually-hidden {
@@ -150,15 +147,12 @@ body {
 }
 
 .list-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-text-color)
 }
 .list-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -176,11 +170,9 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
 }
 
 .card-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -200,6 +192,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--primary-white-color); 
 }
 
@@ -238,7 +231,6 @@ body {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
     background-color: var(--primary-white-color);
 }
 
@@ -253,12 +245,10 @@ body {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    color: var(--title-text-color);
 }
 
 .projects-text {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
