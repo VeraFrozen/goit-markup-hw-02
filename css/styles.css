@@ -36,6 +36,11 @@ body {
     cursor: pointer;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
 /*шапка сайта*/
 .logo-accent {
     font-family: "Raleway", sans-serif;
@@ -66,9 +71,7 @@ body {
     color: var(--title-text-color);
 }
 
-.site-nav .link.current,
-.site-nav .link:hover,
-.site-nav .link:focus  {
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
@@ -115,7 +118,7 @@ body {
 }
 .hero .button:hover,
 .hero .button:focus {
-    color: var(--accent-button);
+    background-color: var(--accent-button);
 }
 
 /*Заголовки секций*/
@@ -223,11 +226,10 @@ body {
 }
 
 /*Портфолио*/
-.link .projects:hover,
-.link .projects:hover {
+.projects .link:hover,
+.projects .link:focus {
     color: var(--accent-color);
 }
-
 .portfolio-button {
     font-family: inherit;
     font-style: normal;
