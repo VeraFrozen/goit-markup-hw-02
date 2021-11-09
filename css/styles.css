@@ -114,6 +114,7 @@ body {
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    cursor: pointer;
 }
 .hero .button:hover,
 .hero .button:focus {
@@ -232,6 +233,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     background-color: var(--primary-white-color);
+    cursor: pointer;
 }
 
 .portfolio-button:hover,
